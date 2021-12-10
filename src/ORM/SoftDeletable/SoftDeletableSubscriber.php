@@ -16,7 +16,7 @@ use Knp\DoctrineBehaviors\Reflection\ClassAnalyzer;
 use Knp\DoctrineBehaviors\ORM\AbstractSubscriber;
 
 use Doctrine\ORM\Event\LoadClassMetadataEventArgs,
-    Doctrine\Common\Persistence\Mapping\ClassMetadata,
+    Doctrine\ORM\Mapping\ClassMetadata,
     Doctrine\Common\EventSubscriber,
     Doctrine\ORM\Event\OnFlushEventArgs,
     Doctrine\ORM\Events;

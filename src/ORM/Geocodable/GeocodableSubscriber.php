@@ -17,7 +17,7 @@ use Knp\DoctrineBehaviors\ORM\AbstractSubscriber;
 
 use Knp\DoctrineBehaviors\ORM\Geocodable\Type\Point;
 
-use Doctrine\Common\Persistence\Mapping\ClassMetadata;
+use Doctrine\ORM\Mapping\ClassMetadata;
 use Doctrine\ORM\Event\LoadClassMetadataEventArgs;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\DBAL\Platforms\PostgreSqlPlatform;
